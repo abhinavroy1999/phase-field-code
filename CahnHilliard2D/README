@@ -1,0 +1,58 @@
+****************************************************************************
+                                   PREAMBLE
+
+This directory contains source code which can perform morphological evolution 
+in a system, governed by the Cahn-Hilliard equation for conserved order parameter. 
+The phenomena which it describes is the well known Spinodal Decomposition in system 
+consisting of two phases.
+The work utilizes the Semi-Implicit Fourier Spectral Technique to solve the Cahn-
+Hilliard equation, which has been found to be very efficient with respect to the 
+restriction on the time step and grid spacing, and hence the solution are stable
+and allow simulation for longer period of time.
+
+Authors: Abhinav Roy, M.P. Gururajan
+
+This directory contains free software which is distributed under GNU GPL v 3.0 
+(or any later versions). To get more information regarding the lisence, and the
+terms and conditions to modify and/or redistribute this work, kindly refer to 
+the text file present in this directory under the name "GPL".
+
+*****************************************************************************
+CONTENTS OF THIS DIRECTORY: -
+
+1. header_file (directory): contains the header file "headers.h" with the 
+                            required function prototyes.
+
+2. input (directory):       contains text files for various simulation data required 
+                            for simulation. To be altered accordingly depending on 
+                            the need of simulation.
+
+3. output (directory):      contains output of a particular run: -
+                            a. input data test result
+                            b. simulation data  
+                            c. the output binary file for various time of evolution 
+                            d. PostScript (PS) file displaying the morphological 
+                               evolution for each output file).
+
+4. source_code (directory): contains source files, namely: -
+                            a. "CahnHilliard.c", 
+                            b. "testcode.c"
+                            c. "evolution.c"
+                            d. "ps_file.c".
+5. Makefile
+*******************************************************************************
+TO RUN THIS CODE: -
+
+If there are .o files and "Cahn_Hilliard_evolution.out" file present in the parent 
+directory, perform the following operations: -
+[command for Linux terminal (OS: Ubuntu 16.04 LTS)]
+
+make clean
+make CLEAN
+make
+
+After 
+./Cahn_Hilliard_evolution.out
+
+The fresh output of a particular run will be present in the "output" directory.
+*********************************************************************************
