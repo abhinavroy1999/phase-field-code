@@ -55,4 +55,8 @@ After
 ./Cahn_Hilliard_evolution.out
 
 The fresh output of a particular run will be present in the "output" directory.
+
+**In case of problem encountered during compilation, kindly go through the Makefile
+  and make sure that the path to the appropriate directories for various libraries 
+  are selected for the respective machine.
 *********************************************************************************
