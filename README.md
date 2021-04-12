@@ -2,7 +2,7 @@
 The master directory contains two separate folders: -
 
 1. CahnHilliard2D: -
-This directory contains source code which performs microstructure evolution in a system by numerically solving the Cahn-Hilliard equation using the semi-implicit Fourier spectral technique, for conserved order parameter. The phenomenon which it describes is the well known Spinodal Decomposition in system consisting of two components which spontaneously separate into to isostructural phases.
+This directory contains source code which performs microstructure evolution in a system by numerically solving the Cahn-Hilliard equation using the semi-implicit Fourier spectral technique, for conserved order parameter. The phenomenon which it describes is the well known Spinodal Decomposition in system consisting of two components which spontaneously separate into two isostructural phases.
 
 2. AllenCahn2D: -
 This directory contains source code which performs microstructure evolution in a system by numerically solving the Allen-Cahn equation for non-conserved order parameter. 
