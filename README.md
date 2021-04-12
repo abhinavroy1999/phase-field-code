@@ -17,4 +17,6 @@ The source codes available in this repository are developed in collaboration wit
 IIT Bombay.
 The code are distributed under the GNU General Public License v3.0 (or any later versions).
 
-For more information regarding the codes, kindly go through the README files in the respective directories.
+For details pertaining to execution of the code, kindly go through the README files in the respective directories.
+
+For more information of Phase field modeling -- the derivation of Cahn-Hilliard equation, numerical algorithm for solving the Cahn-Hilliard and the Allen-Cahn equation, kindly refer to the NPTEL MOOC course by Prof. M. P. Gururajan titled Phase field modelling: the materials science, mathematics and computational aspects (https://nptel.ac.in/courses/113/101/113101072/)
